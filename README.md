@@ -9,6 +9,7 @@ T.new = (T.old + (k*(T.top + T.bottom + T.left + T.right + T.top_left + T.bottom
 
 # Program Execution
 ./heat_transfer \<num_threads\> \<numRows> \<numCols\> \<base temp\> \<k\> \<timesteps\> \<heaterFileName\> \<outputFileName\>
+
 where K is the temperature transfer rate. A large K will result in a faster heat transfer.
 
 # Visualization
